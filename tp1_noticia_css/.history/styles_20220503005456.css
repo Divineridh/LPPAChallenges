@@ -125,14 +125,6 @@ a {
     color: #4C9DFA;
 }
 
-.separator {
-    font-size: 14px;
-    font-family: "Arimo",sans-serif;
-    line-height: 1;
-    color: #E8E8E8;
-    padding: 0 16px;
-}
-
 .nota-titulo {
     font-size: 44px;
     font-weight: 700;
@@ -168,10 +160,6 @@ a {
     display: flex;
 }
 
-.flex-wrap {
-    flex-wrap: wrap;
-}
-
 .align-center {
     align-items: center;
 }
@@ -200,22 +188,3 @@ ul {
     margin: 0 auto;
 }
 
-.article-body {
-    padding-bottom: 40px;
-}
-
-.single-tag {
-    height: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 15px;
-    font-weight: 700;
-    font-family: "Arimo", sans-serif;
-    color: #000A2F;
-    border: 1px solid #CCCED5;
-    border-radius: 4px;
-    padding: 0 18px;
-    margin-right: 16px;
-    margin-bottom: 10px;
-}
