@@ -1,0 +1,32 @@
+.site-header {
+    position: sticky;
+}
+
+.top-links {
+
+}
+
+.top2-links {
+
+}
+
+.container-total {
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.left-column {
+    max-width: 728px;
+    flex-basis: 728px;
+    margin-right: 20px;
+}
+
+div p {
+    padding-bottom: 40px;
+    font-size: 19px;
+    font-family: "Noto Serif", serif;
+    line-height: 30px;
+    color: #292933;
+    margin-bottom: 34px;
+}
