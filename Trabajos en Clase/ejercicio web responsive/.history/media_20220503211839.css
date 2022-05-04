@@ -1,0 +1,11 @@
+@media screen and (min-width: 601px) {
+    .content {
+        background-color: lightblue;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        background-color: aquamarine;
+    }
+}
