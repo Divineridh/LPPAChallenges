@@ -1,0 +1,11 @@
+#corner {
+    background-color: #000000;
+}
+
+.redCell {
+    background-color: #ff0000;
+}
+
+table, th, td {
+    border: solid black 2px;
+}

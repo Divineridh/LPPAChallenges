@@ -1,0 +1,25 @@
+.div1 {
+    background-color: #FF0000;
+    position: fixed;
+}
+
+.div2 {
+    background-color: #00FF00;
+    position: relative;
+    top: 30%;
+    right: 0px;
+    /* float: right; */
+}
+
+.div3 {
+    background-color: #0000FF;
+    position: absolute;
+    top: 40%;
+    right: 15%;
+}
+
+.divs {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+}

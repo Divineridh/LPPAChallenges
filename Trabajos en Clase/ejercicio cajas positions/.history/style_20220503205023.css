@@ -1,0 +1,18 @@
+.div1 {
+    background-color: #FF0000;
+    position: absolute;
+}
+
+.div2 {
+    background-color: #00FF00;
+}
+
+.div3 {
+    background-color: #0000FF;
+}
+
+.divs {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+}

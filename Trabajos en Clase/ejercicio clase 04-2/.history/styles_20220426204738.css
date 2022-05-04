@@ -1,0 +1,25 @@
+.square1 {
+
+}
+
+.square2 {
+
+}
+
+.squares {
+    display: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.mini1 {
+
+}
+
+.mini2 {
+
+}
+
+.minis {
+    display: inline-block;
+}

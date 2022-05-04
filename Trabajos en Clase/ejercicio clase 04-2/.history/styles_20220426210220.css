@@ -1,0 +1,38 @@
+.container {
+    width: 350px;
+    height: 100%;
+    left: 40%;
+    position: absolute;
+    border: solid black 1px;
+}
+
+.square1 {
+    background-color: #00ffee;
+}
+
+.square2 {
+    background-color: #2600ff;
+}
+
+.squares {
+    display: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.mini1 {
+    background-color: #ffff00;
+}
+
+.mini2 {
+    background-color: #15ff00;
+    float: right;
+}
+
+.minis {
+    display: inline-block;
+    border: solid black 2px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+}

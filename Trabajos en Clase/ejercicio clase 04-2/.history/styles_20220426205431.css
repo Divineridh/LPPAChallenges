@@ -1,0 +1,26 @@
+.square1 {
+    background-color: #00ffee;
+}
+
+.square2 {
+    background-color: #2600ff;
+}
+
+.squares {
+    display: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.mini1 {
+    background-color: #ffff00;
+}
+
+.mini2 {
+    background-color: #15ff00;
+}
+
+.minis {
+    display: inline-block;
+    width: 70px;
+}

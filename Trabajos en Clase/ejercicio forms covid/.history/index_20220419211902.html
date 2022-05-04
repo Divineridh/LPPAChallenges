@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios covid</title>
+</head>
+<body>
+    <h1>Ejercicio covid</h1>
+    <p><b>Vacunas contra el covid</b>
+    <ul name="vacunaslist">
+        <li name="vacuna1">Astrazeneca</li>
+        <li>Pfizer</li>
+        <li>Sputnik</li>
+    </ul>
+    </p>
+
+
+
+    <h2>Ingrese sus datos</h2>
+    <form>
+        <p>
+            <label for="idpaciente">ID Paciente</label>
+            <input type="text" id="idpaciente" name="idpaciente"><br>
+        </p>
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre"> 
+        </p>
+        <p>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido"><br>
+        </p>
+        <p>
+            <label for="edad">Edad</label>
+            <input type="text" id="edad" name="edad"><br>
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email"><br>
+        </p>
+        <p>
+            <label for="telefono">Telefono</label>
+            <input type="text" id="telefono" name="telefono"><br>
+        </p>
+        <p>
+            <b>Sintomas (seleccione todos los que apliquen)</b> <br>
+            <input type="checkbox" id="fiebre" name="fiebre">
+            <label for="fiebre">Fiebre</label> <br>
+            <input type="checkbox" id="dolorcabeza" name="dolorcabeza">
+            <label for="dolorcabeza">Dolor de Cabeza</label> <br>
+            <input type="checkbox" id="nauseas" name="nauseas">
+            <label for="nauseas">Nauseas</label>
+        </p>
+        <p>
+            <b>Vacunado?</b> <br>
+            <input type="radio" id="sivacuna" name="sivacuna">
+            <label for="sivacuna">Si</label>
+            <input type="radio" id="novacuna" name="novacuna">
+            <label for="novacuna">No</label> 
+        </p>
+        <p>Elija su vacuna
+        <select name="vacunas">
+            <option value="vacuna1">Astrazeneca</option>
+            <option value="vacuna2">Pfizer</option>
+            <option value="vacuna3">Sputnik</option>
+        </select>
+        <p>
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha">
+        </p>
+        <div>
+            <input type="submit" id="submit" name="submit">Submit
+        </div>
+    </form>
+</body>
+</html>
