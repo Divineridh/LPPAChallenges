@@ -1,0 +1,52 @@
+.site-header {
+    position: sticky;
+}
+
+.top-links {
+    height: 26px;
+    padding-top: 14px;
+}
+
+.topmenu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.top2-links {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    height: 50px;
+    padding: 0 30px;
+    background: #000A2F;
+}
+
+.container-total {
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.left-column {
+    max-width: 728px;
+    flex-basis: 728px;
+    margin-right: 20px;
+}
+
+.left-column p {
+    padding-bottom: 40px;
+    font-size: 19px;
+    font-family: "Noto Serif", serif;
+    line-height: 30px;
+    color: #292933;
+    margin-bottom: 34px;
+}
+
+.right-column {
+    flex-basis: 300px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 70px;
+}

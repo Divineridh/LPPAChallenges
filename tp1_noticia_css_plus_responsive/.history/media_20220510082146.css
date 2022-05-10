@@ -1,0 +1,11 @@
+@media screen and (max-width: 991px) {
+    .left-column {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .left-column {
+        width: 100%;
+    }
+}

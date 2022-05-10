@@ -1,0 +1,17 @@
+.site-header {
+    position: sticky;
+}
+
+.top-links {
+
+}
+
+.top2-links {
+
+}
+
+.container-total {
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
